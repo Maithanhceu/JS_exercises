@@ -115,10 +115,10 @@ function minMaxKeyInObject (obj){
   for (keys in obj){
     let key = Number(keys);
     if (key < minKeys){
-      minKeys = keys;
+      minKeys = key;
     }
     else if (key > maxKeys){
-      maxKeys = keys; 
+      maxKeys = key; 
     }
   } finalArr.push(minKeys);
     finalArr.push(maxKeys);
